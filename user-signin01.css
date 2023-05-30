@@ -1,11 +1,9 @@
 :root {
-	--white: #e9e9e9;
+	--white: #d8edf9;
 	--gray: #333;
 	--blue: #0367a6;
 	--lightblue: #008997;
-
 	--button-radius: 0.7rem;
-
 	--max-width: 758px;
 	--max-height: 420px;
 
@@ -17,7 +15,7 @@
 body {
 	align-items: center;
 	background-color: var(--white);
-	background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+	background: url("https://e7.pngegg.com/pngimages/510/841/png-transparent-abstract-blue-background-wave.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -42,6 +40,7 @@ body {
 
 .container {
 	background-color: var(--white);
+    border: 1px solid white;
 	border-radius: var(--button-radius);
 	box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
 		0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
@@ -100,7 +99,7 @@ body {
 
 .overlay {
 	background-color: var(--lightblue);
-	background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+	background: url("https://e7.pngegg.com/pngimages/510/841/png-transparent-abstract-blue-background-wave.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -188,7 +187,7 @@ body {
 
 .input {
 	background-color: #fff;
-	border: none;
+	border: .25px solid #c2bebe;
 	padding: 0.9rem 0.9rem;
 	margin: 0.5rem 0;
 	width: 100%;
